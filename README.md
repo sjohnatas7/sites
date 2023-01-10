@@ -1,5 +1,6 @@
 # sites
-Projeto Twitter Clone
+Projeto Twitter Clone Por Johnatas Santos
+
 Feito usando a estrutura MVC, na linguagem HTML, CSS, Bootstrap,Javascript, Jquery, PHP e MySQL 
 
 
