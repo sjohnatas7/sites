@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f4f2ec url(../../Imagens/museu/img/fundo.png) repeat-x;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a, a:link,a:active,a:visited{
+    color: #af670a;
+    text-decoration: none;
+}
+#container{
+    width: 1080px;
+    margin: 0 auto;
+}
+#logo{
+    float: left;
+}
+#logo a{
+    width: 248px;
+    height: 21px;
+    text-indent: -9999px;
+    display: block;
+    background: url(../../Imagens/museu/img/logo.png) no-repeat;
+}
+header{
+    padding: 15px 0;
+    height: 55px;
+}
+nav ul{
+    list-style: none;
+    margin: 20px;
+    float: right;
+}
+nav ul li{
+    float: left;
+}
+header nav a{
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+header nav a:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+#conteudo{
+    width: 710px;
+    float: left;
+}
+
+article#video{
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+article#mapa{
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+article#historia{
+    float: left;
+    width: 310px;
+    margin:15px 0 0 37px;
+}
+article#exposicoes{
+    float: left;
+    width: 310px;
+    margin:15px 0 0 25px;
+}
+#exposicoes ul{
+    padding: 0 0 0 20px;
+}
+
+#historia p{
+    margin-bottom: 15px;
+}
+a:hover{
+    border-bottom: 1px solid;
+}
+#exposicoes li{
+    padding: 2px;
+}
+#veja{
+    list-style: none;
+    margin-top: 13px;
+}
+
+.depoimento{
+    margin-bottom: 0;
+}
+aside{
+    width: 350px;
+    float: right;
+    padding-bottom: 30px;
+}
+#visita{
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+h3{
+    color: #227115;
+    font-size: 1em;
+    margin: 15px 0;
+    text-transform: uppercase;
+
+}
+h4{
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin: 7px 0;
+    text-align: center;
+
+}
+
+input{
+    height: 20px;
+    background: #fff;
+    border: none;
+    font-size: 1em;
+    width: 80px;
+}
+input.campo{
+    border: 1px solid #ada848;
+    margin-bottom: 7px;
+    width: 125px;
+    text-align: center;
+}
+input.botao{
+    background: #9b9271;
+    color: #fff;
+    font-size: 1.2em;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+fieldset{
+    border: none;
+}
+legend{
+    display: none;
+}
+
+#galeria{
+    padding: 18px 27px 10px 27px;
+    margin-top: 10px;
+    background: #ebe7dd;
+    float: right;
+}
+#galeria a{
+    display: block;
+    background: url(../../Imagens/museu/img/fundo-foto.png)no-repeat;
+    float: left;
+    padding: 17px 15px 17px 15px;
+    margin: 10px 0 0 20px;
+    border: none;
+}
+
+#galeria img{
+    margin-left: 2px;
+    margin-top: 3px;
+}
+footer{
+    clear: both;
+    padding: 20px 0 30px 0;
+    text-align: center;
+    background: url(../../Imagens/museu/img/fundo-rodape.png) no-repeat center top;
+}
+footer>p a{
+    margin: 0px 10px 0 10px;
+}
+footer p {
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,5 @@
+1#Maria#Software#Problema no Avast
+1#Jose#Rede#Wifi
+3#Jose Pc#Hardware#Problema da Dell
+3#Jose Construção de software#Impressora#Impressora
+4#Lousa#Hardware#Tela quebrada

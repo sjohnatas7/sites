@@ -1,0 +1,56 @@
+nav a.navbar-brand{
+    color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+}
+nav a.navbar-brand img{
+    margin-right: 10px;
+}
+#navegacao li{
+    border: 1px solid rgba(0,0,0,0.125);
+    padding: 5px 10px;
+    border-collapse: collapse;
+}
+#navegacao li+li{
+    border-top: none;
+}
+#navegacao a{
+    color: #212529;
+}
+#navegacao a:hover{
+    color: #009933;
+}
+#navegacao .ativado{
+    border:1px solid #009933;
+    border-left: 10px solid #009933 ;
+}
+h3{
+    color: #009933;
+    font-weight: 300;
+    padding-bottom: 1.2rem ;
+    border-bottom: 1px solid #dfdfdf;
+}
+.pagina{
+    border: 1px solid #dfdfdf;
+    padding: 25px!important;
+}
+hr{
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    border: 0;   
+}
+label{
+    margin-bottom: 0.5rem;
+}
+.btn-adicionar{
+    border: 1px solid #009933;
+    color: #fff;
+    background: #009933;
+    padding: 0.5rem 2rem;
+}
+.btn-adicionar:hover{
+    color: #fff;
+    border: 1px solid #009933;
+    background: #078933;
+}
