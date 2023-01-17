@@ -10,10 +10,10 @@ function ajustaTamanho(){
         document.body.style.backgroundSize='cover'
     }
 }
-var vidas=99
+var vidas=2
 var altura=0
 var largura=0
-var segundos=60
+var segundos=15
 var criaMosquitoTempo=1500
 var nivel = window.location.search
 if(nivel=="?normal"){

@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    margin: 0 23px;
+    height: 100%;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav a .logo{
+    display: block;
+    margin-top: 10px;
+}
+.lado-esquerdo{
+    width: 20%;
+    height: 100%;
+    top: 0;
+    left: 2%;
+    position: fixed;
+}
+.principal{
+    height: 100%;
+}
+.navegacao li{
+    margin-left: -0.8rem;
+    margin-bottom: 0.2rem;
+    display: flex;
+    align-items: center;
+}
+.navegacao a{
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #0f1419;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 0rem;
+    /* line-height: 1.3em; */
+}
+.navegacao span {
+    margin-left: 1.2rem;
+}
+.navegacao a:hover{
+    background: #E7E5E6;
+}
+.navegacao .ativo{
+    font-weight: bold;
+}
+.lado-principal{
+    position: absolute;
+    left: 22%;
+    width: 47%;
+    margin-right: 25px;
+}
+.top-principal{
+    background-color: #fff;
+    backdrop-filter: blur(10px);
+}
+.pesquisar{
+    width: 83%;
+    margin-left: 1.4rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #EFF3F4;
+    border-radius: 30rem;
+
+}
+.pesquisar input{
+    border: none;
+    width: 80%;
+    height: 2.7rem;
+    margin-left: 1rem;
+    font-size: 1em;
+    color: #556673;
+    background-color: #EFF3F4;
+}
+.pesquisar input:focus{
+    outline: none;
+}
+#pesquisar-icon{
+    margin-left: 1.1rem;
+    color: #717F89;
+}
+#pesquisar-config{
+    margin-right: 20px;
+}
+.nav-principal a{
+    color: #536471;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+}
+.nav-principal span{
+    padding-bottom: 1.1rem;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.nav-principal li{
+    flex-grow: 1;
+    text-align: center;
+}
+.nav-principal a:hover{
+    color: #536471;
+}
+.nav-principal li:hover{
+    background: #E7E5E6;
+}
+.nav-principal .ativo span{
+    border-bottom: 3px solid #1E9BF0;
+    color: #000;;
+}
+.conteudo a.link-conteudo{
+    width: 100%;
+    position:relative;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.conteudo a.link-conteudo p{
+    color: #536471;
+    font-size: 0.8em;
+    margin: 0;
+    display: inline;
+}
+.conteudo a.link-conteudo h5{
+    margin-bottom: 1px;
+    margin-top: 0;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #000;
+}
+.conteudo a.link-conteudo:hover{
+    background: #f7f7f7;
+}
+.icon-conteudo{
+    position: absolute;
+    top: 0.5rem;
+    padding: 0.5rem;
+    right: 0.5rem;
+    color: #556673;
+}
+.icon-conteudo:hover{
+    background: #E3EDF6;
+    color: hsl(208, 80%, 77%);
+}
+.lado-direito{
+    position: fixed;
+    /* top: 0; */
+    /* right: 0; */
+}
+.inscrever{
+    padding-left: 15px;
+    position: fixed;
+    right: 0;
+    margin-top: 15px;
+    margin-right: 25px;
+    width: 27%;
+}
+.inscrever h4{
+    font-weight: bold;
+    margin-top: 12px;
+    font-size: 1.4em;
+    letter-spacing: -0.03em;
+    margin-left: 6px;
+}
+.inscrever p{
+    color: #6c7b85;
+    font-size: 0.8em;
+}
+.inscrever button{
+    width: 90%;
+    background: none;
+    margin-bottom: 10px;
+    line-height: 3;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+.inscrever button:hover{
+    background: #E6E6E6;
+}
+.btn-google{
+    font-weight: normal;
+}
+.inscrever a{
+    color:#1E9BF0;
+    text-decoration: none;
+}
+.inscrever a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #1E9BF0;
+    color: #fff;
+    
+}
+.text-footer{
+    font-size: 0.9em;
+    margin-left: 22%;
+}
+footer p {
+    margin-bottom: 0.7rem;
+
+}
+footer h4{
+    margin-top: 0.7rem;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+footer button{
+    padding: 8px 16px;
+    border:none;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.btn-inscrever{
+    margin-right: 23px;
+}
+.btn-entrar{
+    margin-left: auto;
+    margin-right: 15px;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+}
+.btn-entrar:hover{
+    background: #3EA4F1;
+}
+.btn-inscrever:hover{
+    background-color: #D7DBDC;
+}
